@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       FORK_URL:
-        description: 'FORKED_URL'
+        description: 'https://github.com/jeanroyce/vendor_hardware_overlay'
         required: true
         default: 'https://github.com/phhusson/vendor_hardware_overlay'
 
